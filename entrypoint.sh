@@ -1,1 +1,1 @@
- /goproxy-vps/goproxy-vps $CONFIG_FILE_URL -logtostderr -v 3
+ cat $CONFIG_FILE > /goproxy-vps/goproxy-vps.toml && /goproxy-vps/goproxy-vps -logtostderr -v 3
